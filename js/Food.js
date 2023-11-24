@@ -95,7 +95,7 @@ document.addEventListener('keydown', (event) => {
 
 const kose = {
   cuisine: "Восточная и европейская",
-  bill: "4500  tenge",
+  bill: "4500 тг",
   address: "​Улица Кайым Мухамедханов, 4а"
 };
 
@@ -109,9 +109,9 @@ document.getElementById("koseAdress").innerHTML =
 "Address: " + kose.address;
 
 const gasteria = {
-  cuisine: "European, Asian",
-  bill: "8,000 tenge",
-  address: "Turan 22/1, Tokpanova 27"
+  cuisine: "Восточная и европейская",
+  bill: "8,000 тг",
+  address: "Туран, 22/1​, Токпанова 27"
 };
 
 document.getElementById("gasteriaCuisine").innerHTML =
@@ -124,8 +124,8 @@ document.getElementById("gasteriaAdress").innerHTML =
 "Address: " + gasteria.address;
 
 const hspf = {
-  cuisine: "European",
-  bill: "3,000 tenge",
+  cuisine: "Европейская",
+  bill: "3,000 тг",
   address: "Кенесары, 63"
 };
 

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Достопримечятельности</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/01d1f82a0d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_attractions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <header>
+    <video autoplay muted loop>
+      <source src="video/astana.mp4" type="video/mp4">
+      Ваш броузер не поддерживает формат видео
+    </video>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">ASTANA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Attractions.html">Attractions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Food.html">Food</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <form action="https://www.google.com/search" class="search" id="search-bar">
+            <input type="search" placeholder="Type something..." name="q" class="search__input">
+  
+            <div class="search__button" id="search-button">
+                <i class="ri-search-2-line search__icon"></i>
+                <i class="ri-close-line search__close"></i>
+            </div>
+          </form>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="overlay-text">
+      <h1>Достопримечятельности</h1>
+    </div>
+  </header>
+
+  <div class="shore">
+    <h3>Левый берег</h3>
+    <hr class="line"></hr>
+    <div class="row cards">
+      <div class="col-lg-4 card">
+        <img src="img/Baiterek.jpg" alt="Baiterek">
+        <div class="card-content">
+          <h4>Байтерек</h4>
+          <p>Байтерек - памятник в виде золотого шара на вершине
+            97-метровой башни. Он был построен в 1996-2002 годах и является одним из самых
+            Один из самых узнаваемых символов страны.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 card">
+        <img src="img/KhanShatyr.jpg" alt="Khan Shatyr">
+        <div class="card-content">
+          <h4>Хан Шатыр</h4>
+          <p>Хан Шатыр - самый большой в мире развлекательный центр в форме шатра.
+            Он был спроектирован британским архитектором Норманом Фостером и открыт
+            в 2010 году.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 card">
+        <img src="img/мечеть.jpeg" alt="Mosque">
+        <div class="card-content">
+          <h4>Центральная мечеть</h4>
+          <p>Центральная мечеть города Астаны — соборная мечеть в Астане. 
+            Cамая большая по вместимости мечеть Казахстана и Центральной Азии</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shore">
+    <h3>Правый берег</h3>
+    <hr class="line"></hr>
+    <div class="row cards">
+      <div class="col-lg-4 card">
+        <img src="img/pyramid.jpg" alt="Palace of Peace and Reconciliation">
+        <div class="card-content">
+          <h4>Дворец мира и согласия</h4>
+          <p>Дворец мира и согласия представляет собой уникальное сооружение в форме пирамиды
+            сооружение. Он был построен в 2006 году по проекту британского
+             архитектора Нормана Фостера.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 card">
+        <img src="img/museum.jpg" alt="National Museum">
+        <div class="card-content">
+          <h4>Национальный Музей</h4>
+          <p>Национальный музей - крупнейший музей Казахстана. Он был
+            открыт в 2014 году и является частью архитектурного ансамбля площади Независимости.
+             Площадь Независимости.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 card">
+        <img src="img/monument.jpg" alt="Monument Kazakh Eli">
+        <div class="card-content">
+          <h4>Памтяник Қазақ Елі</h4>
+          <p>Памятник Казахскому Илаю представляет собой скульптурную композицию. Он был открыт
+            в 2010 году и является частью архитектурного ансамбля площади Независимости
+            Площадь Независимости.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="footer">
+  <p>2023</p>
+  <div class="socialMedia">
+    <ul class="sci">
+      <li data-color="#1877f2">
+        <a href="https://www.instagram.com/sxodim.astana/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </li>
+      <li data-color="#0099ff">
+        <a href="https://www.instagram.com/sxodim.astana/" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </li>
+      <li data-color="#ff0000">
+        <a href="https://www.instagram.com/sxodim.astana/" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+      </li>
+      <li data-color="#e4405f">
+        <a href="https://www.instagram.com/sxodim.astana/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+</div>
+</footer>
+
+<a href="#" class="to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+
+<script src="js/vanilla.js"></script>
+
+<script src="js/Attraction.js"></script>

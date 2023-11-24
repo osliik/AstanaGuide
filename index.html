@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ASTANA</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/01d1f82a0d.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/typing.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">ASTANA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Attractions.html">Attractions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Food.html">Food</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="Contact.html">Contact</a>
+          </li>
+          <form action="https://www.google.com/search" class="search" id="search-bar">
+            <input type="search" placeholder="Type something..." name="q" class="search__input">
+  
+            <div class="search__button" id="search-button">
+                <i class="ri-search-2-line search__icon"></i>
+                <i class="ri-close-line search__close"></i>
+            </div>
+          </form>
+        </ul>
+      </div>
+    </nav>
+  </div> 
+
+  <header>
+      <div class="header-content">
+          <h2>Познакомьтесь со столицей Казахстана</h2>
+          <hr class="line"></hr>
+          <h1>ЧУДЕСНЫЙ ГОРОД</h1>
+          <a href="#" class="ctn">Learn More</a>
+      </div>
+  </header>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="close-popup">&times;</span>
+        <h3>Интересные факты</h3>
+        <p>1. Астана, ранее Нур-Султан, в марте 2019 года был переименован в честь первого президента Казахстана Нурсултана Назарбаева.</p>
+        <p>2. Этот город славится своей современной архитектурой, в том числе и символом города - памятником Байтереку.</p>
+        <p>3. Астана - политический и административный центр Казахстана.</p>
+        <p>4. Город расположен в центре степей, что создает вокруг него удивительные природные ландшафты.</p>
+        <p>5. Астана привлекает представителей различных этнических групп и языков, включая русский, казахский и английский.</p>
+    </div>
+</div>
+
+  <section class="shores">
+      <div class="title">
+          <h1>Берега</h1>
+          <hr class="line"></hr>
+      </div>
+      <div class="row">
+          <div class="col">
+            <img onmouseover="leftSound()" src="img/Shores2.jpg" alt="Left shore">
+            <h4>Левый берег</h4>
+            <p>Левый берег отличается новыми зданиями и футуризмом. Это считается самым новым местом в городе!</p>
+          </div>
+          <div class="col">
+            <img onmouseover="rightSound()" src="img/Shores1.jpg" alt="Right shore">
+            <h4>Правый берег</h4>
+            <p>Правый берег отличается своей историей, здесь расположены старинные здания. Это считается самой старой частью города!</p>
+          </div>
+      </div>
+  </section>
+
+
+  <section class="explore">
+    <div class="explore-content">
+      <h1>Исследуйте вместе с нами</h1>
+      <hr class="line"></hr>
+      <p>Я хочу предоставить полезную информацию о городах для туристов. Этот проект - мой первый и прошу не судить строго. По ссылке ниже вы можете связаться с нами.</p>
+      <div class="dropdown">
+        <button type="button" class="btn btn-secondary ctn dropdown-toggle" data-toggle="dropdown" id="mybtn">
+          Info
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="Contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Food">
+      <div class="row">
+          <div class="col content-col">
+              <h1 style="clear:left;">Заведения</h1>
+              <hr class="line"></hr>
+              <p>В городе работает множество ресторанов и кафе, где можно познакомиться как с народной кyхней, так и с необычными блюдами. Мы собрали для Вас лучшие заведения, которые Вас обязательно удивят!</p>
+              <a href="Food.html" class="ctn">Learn More</a>
+          </div>
+          <div class="col image-col">
+              <div style="float:right;" class="image-gallery">
+                  <img src="img/Food1.jpg" alt="Food">
+                  <img src="img/Food2.jpg" alt="Food">
+                  <img src="img/Food3.jpg" alt="Food">
+                  <img src="img/Food4.jpg" alt="Food">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <p>2023</p>
+    <div class="socialMedia">
+      <ul class="sci">
+        <li data-color="#1877f2">
+          <a href="https://www.instagram.com/sxodim.astana/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li data-color="#0099ff">
+          <a href="https://www.instagram.com/sxodim.astana/" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li data-color="#ff0000">
+          <a href="https://www.youtube.com/watch?v=DPm2t5Ins4A&ab_channel=CoolVision" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </li>
+        <li data-color="#e4405f">
+          <a href="https://www.instagram.com/sxodim.astana/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+  </div>
+  </footer>
+
+  <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script>
+    function leftSound(){
+      var left = new Audio('sound/лб.mp3');
+      left.play();
+    }
+    function rightSound(){
+      var right = new Audio('sound/пб.mp3');
+      right.play();
+    }
+  </script>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="js/vanilla.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>

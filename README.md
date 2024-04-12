@@ -1,2 +1,1 @@
 # AstanaGuide
-Free to use
